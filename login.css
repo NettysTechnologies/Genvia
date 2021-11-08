@@ -1,0 +1,28 @@
+body {
+  font-family: arial, sans-serif;
+  width: 25%;
+  margin: 1% auto;
+}
+
+#logo {
+  width: 40%;
+  margin: 2% auto;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 2% 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 2em;
+}
+
+form input[type="submit"] {
+  width: 20%;
+}

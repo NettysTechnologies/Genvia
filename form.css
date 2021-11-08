@@ -1,0 +1,30 @@
+body {
+  font-family: arial, sans-serif;
+  width: 50%;
+  margin: 1% auto;
+}
+
+a {
+  float: right;
+  text-decoration: none;
+  color: #040075;
+}
+
+#logo {
+  width: 20%;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 2% 0;
+}
+
+form input[type="submit"] {
+  width: 20%;
+}
